@@ -3,441 +3,443 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title> Amir Tofigh's Personal Website </title>
-    <link rel="icon" href="img/icon.png">
+    <link href="img/icon.png" rel="icon">
 
     <!-- ****************** Box Icons ****************** -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
 
     <!-- ****************** Swiper CSS ****************** -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- ****************** Main CSS ****************** -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- ****************** Intro & Background Particles ****************** -->
-    <div id="particles-js"></div>
-    <div id="intro1"></div>
-    <div id="intro2"></div>
-    <div class="scroll-up" id="scroll-up">
-        <a href="#"> <i class='bx bx-up-arrow-alt scroll-up-icon'></i> </a>
-    </div>
+<!-- ****************** Intro & Background Particles ****************** -->
+<div id="particles-js"></div>
+<div id="intro1"></div>
+<div id="intro2"></div>
+<div class="scroll-up" id="scroll-up">
+    <a href="#"> <i class='bx bx-up-arrow-alt scroll-up-icon'></i> </a>
+</div>
 
-    <!-- ****************** Header ****************** -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav-logo autoType"></a>
+<!-- ****************** Header ****************** -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a class="nav-logo autoType" href="#"></a>
 
-            <div class="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link active-link" title="Home">
-                            <i class='bx bxs-home'></i>
-                        </a>
-                        <!-- <span class="nav-title nav-title-home"> Home </span> -->
-                    </li>
+        <div class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link active-link" href="#home" title="Home">
+                        <i class='bx bxs-home'></i>
+                    </a>
+                    <!-- <span class="nav-title nav-title-home"> Home </span> -->
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link" title="About">
-                            <i class='bx bxs-user'></i>
-                        </a>
-                        <!-- <span class="nav-title nav-title-home"> About </span> -->
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" title="About">
+                        <i class='bx bxs-user'></i>
+                    </a>
+                    <!-- <span class="nav-title nav-title-home"> About </span> -->
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link" title="Skills">
-                            <i class='bx bxs-book'></i>
-                        </a>
-                        <!-- <span class="nav-title nav-title-home"> Skills </span> -->
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills" title="Skills">
+                        <i class='bx bxs-book'></i>
+                    </a>
+                    <!-- <span class="nav-title nav-title-home"> Skills </span> -->
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link" title="Work">
-                            <i class='bx bxs-briefcase'></i>
-                        </a>
-                        <!-- <span class="nav-title nav-title-home"> Work </span> -->
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work" title="Work">
+                        <i class='bx bxs-briefcase'></i>
+                    </a>
+                    <!-- <span class="nav-title nav-title-home"> Work </span> -->
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link" title="Contact">
-                            <i class='bx bxs-message-square-detail'></i>
-                        </a>
-                        <!-- <span class="nav-title nav-title-home"> Contact </span> -->
-                    </li>
-                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" title="Contact">
+                        <i class='bx bxs-message-square-detail'></i>
+                    </a>
+                    <!-- <span class="nav-title nav-title-home"> Contact </span> -->
+                </li>
+            </ul>
+        </div>
+
+        <!-- ********* Theme changer button ********* -->
+        <div class="themeBtn"><i class='bx bxs-moon change-theme' id="theme-button"></i></div>
+    </nav>
+</header>
+
+<!-- ****************** Main ****************** -->
+<main class="main">
+    <!-- ********* Home ********* -->
+    <section class="home section" id="home">
+        <div class="home-container container grid">
+            <div class="home-data">
+                <span class="home-greeting"> Hello, I'm </span>
+                <h1 class="home-name">
+                    Amir <span class="diff"> Mohammad </span> Tofigh
+                </h1>
+                <h3 class="home-education"> Frontend Web Developer *React.js* </h3>
+
+                <div class="home-buttons">
+                    <a class="button button-ghost" download="" href="files/AmirTofigh-CV.pdf">
+                        Download CV
+                    </a>
+                    <a class="button" href="#about">
+                        About me
+                    </a>
+                </div>
             </div>
 
-            <!-- ********* Theme changer button ********* -->
-            <div class="themeBtn"><i class='bx bxs-moon change-theme' id="theme-button"></i></div>
-        </nav>
-    </header>
+            <div class="home-handle">
+                <img alt="image" class="home-img" src="./img/vector.svg">
+            </div>
 
-    <!-- ****************** Main ****************** -->
-    <main class="main">
-        <!-- ********* Home ********* -->
-        <section class="home section" id="home">
-            <div class="home-container container grid">
-                <div class="home-data">
-                    <span class="home-greeting"> Hello, I'm </span>
-                    <h1 class="home-name">
-                        Amir <span class="diff"> Mohammad </span> Tofigh
-                    </h1>
-                    <h3 class="home-education"> Frontend Web Developer *React.js* </h3>
-
-                    <div class="home-buttons">
-                        <a download="" href="files/AmirTofigh-CV.pdf" class="button button-ghost">
-                            Download CV
-                        </a>
-                        <a href="#about" class="button">
-                            About me
-                        </a>
-                    </div>
-                </div>
-
-                <div class="home-handle">
-                    <img src="./img/vector.svg" alt="image" class="home-img">
-                </div>
-
-                <div class="home-social">
-                    <a href="https://linkedin.com/in/amir-tofigh-007076216" target="_blank" class="home-social-link">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                    <a href="https://gitlab.com/amirtofigh" target="_blank" class="home-social-link">
-                        <i class='bx bxl-gitlab'></i>
-                    </a>
-                    <a href="https://instagram.com/amir_tgh_" target="_blank" class="home-social-link">
-                        <i class='bx bxl-instagram'></i>
-                    </a>
-                </div>
-
-                <a href="#about" class="home-scroll">
-                    <span class="home-scroll-name"> Scroll Down </span>
-                    <i class='bx bx-mouse home-scroll-icon'></i>
+            <div class="home-social">
+                <a class="home-social-link" href="https://linkedin.com/in/amir-tofigh-007076216" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a class="home-social-link" href="https://gitlab.com/amirtofigh" target="_blank">
+                    <i class='bx bxl-gitlab'></i>
+                </a>
+                <a class="home-social-link" href="https://instagram.com/amir_tgh_" target="_blank">
+                    <i class='bx bxl-instagram'></i>
                 </a>
             </div>
-        </section>
 
-        <!-- ********* About ********* -->
-        <section class="about section" id="about">
-            <span class="section-subtitle"> My Intro </span>
-            <h2 class="section-title"> About Me </h2>
+            <a class="home-scroll" href="#about">
+                <span class="home-scroll-name"> Scroll Down </span>
+                <i class='bx bx-mouse home-scroll-icon'></i>
+            </a>
+        </div>
+    </section>
 
-            <div class="about-container container grid">
-                <img src="img/about-third.jpg" alt="My Picture" class="about-img">
+    <!-- ********* About ********* -->
+    <section class="about section" id="about">
+        <span class="section-subtitle"> My Intro </span>
+        <h2 class="section-title"> About Me </h2>
 
-                <div class="about-data">
-                    <div class="about-info">
-                        <div class="about-box">
-                            <i class='bx bxs-award about-icon'></i>
-                            <h3 class="about-title"> Experience </h3>
-                            <span class="about-subtitle"> 2 years </span>
-                        </div>
+        <div class="about-container container grid">
+            <img alt="My Picture" class="about-img" src="img/about-third.jpg">
 
-                        <div class="about-box">
-                            <i class='bx bxs-briefcase-alt about-icon'></i>
-                            <h3 class="about-title"> Completed </h3>
-                            <span class="about-subtitle"> 3 Projects </span>
-                        </div>
-
-                        <div class="about-box">
-                            <i class='bx bx-support about-icon'></i>
-                            <h3 class="about-title"> Support </h3>
-                            <span class="about-subtitle"> Online 24/7 ;) </span>
-                        </div>
+            <div class="about-data">
+                <div class="about-info">
+                    <div class="about-box">
+                        <i class='bx bxs-award about-icon'></i>
+                        <h3 class="about-title"> Experience </h3>
+                        <span class="about-subtitle"> 2 years </span>
                     </div>
 
-                    <p class="about-description">
-                        I am a front-end web developer and create optimized websites that allow users to access and
-                        interact with the site.<br>Also i'm a computer engineering student and I’ve been working and
-                        learning front-end web development for more than 2 years. i’m looking forward to learning some
-                        new things. My goal is to improve myself every day and do my best in all my projects.
-                    </p>
+                    <div class="about-box">
+                        <i class='bx bxs-briefcase-alt about-icon'></i>
+                        <h3 class="about-title"> Completed </h3>
+                        <span class="about-subtitle"> 3 Projects </span>
+                    </div>
 
-                    <a href="#contact" class="button"> Contact Me </a>
+                    <div class="about-box">
+                        <i class='bx bx-support about-icon'></i>
+                        <h3 class="about-title"> Support </h3>
+                        <span class="about-subtitle"> Online 24/7 ;) </span>
+                    </div>
                 </div>
+
+                <p class="about-description">
+                    As a front-end web developer I create optimized websites that allow users to access and interact
+                    with the site easily.
+                    <br>
+                    Also, I’m a computer engineering student and I’ve been working and learning front- end web
+                    development for over 2 years. I’m eager to learn some new technologies. My goal is to improve myself
+                    every day and do my best in all my projects.
+                </p>
+
+                <a class="button" href="#contact"> Contact Me </a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ********* Services ********* -->
-        <section class="services section">
-            <span class="section-subtitle"> My Services </span>
-            <h2 class="section-title"> What I Offer </h2>
+    <!-- ********* Services ********* -->
+    <section class="services section">
+        <span class="section-subtitle"> My Services </span>
+        <h2 class="section-title"> What I Offer </h2>
 
-            <div class="services-container container grid">
-                <div class="services-card">
-                    <h3 class="services-title"> Front-end Developer </h3>
+        <div class="services-container container grid">
+            <div class="services-card">
+                <h3 class="services-title"> Front-end Developer </h3>
 
-                    <span class="services-button">
+                <span class="services-button">
                         See more <i class="bx bx-right-arrow-alt services-icon"></i>
                     </span>
 
-                    <div class="services-modal">
-                        <div class="services-modal-content">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="services-modal">
+                    <div class="services-modal-content">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <h3 class="services-modal-title"> Front-end Web Developer </h3>
-                            <p class="services-modal-description">
-                                Services with more than 2 years of experience.
-                                Providing quality work in every projects.
-                            </p>
+                        <h3 class="services-modal-title"> Front-end Web Developer </h3>
+                        <p class="services-modal-description">
+                            Services with more than 2 years of experience.
+                            Providing quality work in every projects.
+                        </p>
 
-                            <ul class="services-modal-list">
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Web page development.
-                                    </p>
-                                </li>
+                        <ul class="services-modal-list">
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Web page development.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Create responsive web pages.
-                                    </p>
-                                </li>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Create responsive web pages.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Create optimized and fast websites.
-                                    </p>
-                                </li>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Create optimized and fast websites.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Create websites that allow users to access and interact with the site.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Create websites that allow users to access and interact with the site.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="services-card">
-                    <h3 class="services-title"> Ui/Ux <br> Designer </h3>
+            <div class="services-card">
+                <h3 class="services-title"> Ui/Ux <br> Designer </h3>
 
-                    <span class="services-button">
+                <span class="services-button">
                         See more <i class="bx bx-right-arrow-alt services-icon"></i>
                     </span>
 
-                    <div class="services-modal">
-                        <div class="services-modal-content">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="services-modal">
+                    <div class="services-modal-content">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <h3 class="services-modal-title"> Ui/Ux Designer </h3>
-                            <p class="services-modal-description">
-                                Services with more than 1 years of experience.
-                                Performing service with personal interest for personal projects, not professionally.
-                            </p>
+                        <h3 class="services-modal-title"> Ui/Ux Designer </h3>
+                        <p class="services-modal-description">
+                            Services with more than 1 years of experience.
+                            Performing service with personal interest for personal projects, not professionally.
+                        </p>
 
-                            <ul class="services-modal-list">
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Create the user interface.
-                                    </p>
-                                </li>
+                        <ul class="services-modal-list">
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Create the user interface.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        I create ux element interaction.
-                                    </p>
-                                </li>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    I create ux element interaction.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Design responsive pages.
-                                    </p>
-                                </li>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Design responsive pages.
+                                </p>
+                            </li>
 
-                                <li class="services-modal-item">
-                                    <i class="bx bx-check services-modal-icon"></i>
-                                    <p class="services-modal-info">
-                                        Design dark and light mode.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+                            <li class="services-modal-item">
+                                <i class="bx bx-check services-modal-icon"></i>
+                                <p class="services-modal-info">
+                                    Design dark and light mode.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ********* Skills ********* -->
-        <section class="skills section" id="skills">
-            <span class="section-subtitle"> My Abilities </span>
-            <h2 class="section-title"> My Skills </h2>
+    <!-- ********* Skills ********* -->
+    <section class="skills section" id="skills">
+        <span class="section-subtitle"> My Abilities </span>
+        <h2 class="section-title"> My Skills </h2>
 
-            <div class="skills-container container grid">
-                <div class="skills-content">
-                    <h3 class="skills-title"> Frontend Web Developer </h3>
+        <div class="skills-container container grid">
+            <div class="skills-content">
+                <h3 class="skills-title"> Frontend Web Developer </h3>
 
-                    <div class="skills-box">
-                        <div class="skills-group">
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                <div class="skills-box">
+                    <div class="skills-group">
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> HTML5 </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> CSS3 </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> JavaScript </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> Redux </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> HTML5 </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
                         </div>
 
-                        <div class="skills-group">
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> BootStrap </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> CSS3 </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
+                        </div>
 
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> SASS </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> JavaScript </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
+                        </div>
 
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> React </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> Next JS </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> Redux </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="skills-content">
-                    <h3 class="skills-title"> Other </h3>
+                    <div class="skills-group">
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                    <div class="skills-box">
-                        <div class="skills-group">
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> Python </h3>
-                                    <span class="skills-level"> Advanced </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> Java </h3>
-                                    <span class="skills-level"> Intermediate </span>
-                                </div>
-                            </div>
-
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
-
-                                <div>
-                                    <h3 class="skills-name"> Linux </h3>
-                                    <span class="skills-level"> Intermediate </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> BootStrap </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
                         </div>
 
-                        <div class="skills-group">
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> MySQL </h3>
-                                    <span class="skills-level"> Basic </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> SASS </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
+                        </div>
 
-                            <div class="skills-data">
-                                <i class="bx bxs-badge-check"></i>
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                                <div>
-                                    <h3 class="skills-name"> Git </h3>
-                                    <span class="skills-level"> Intermediate </span>
-                                </div>
+                            <div>
+                                <h3 class="skills-name"> React </h3>
+                                <span class="skills-level"> Advanced </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
+
+                            <div>
+                                <h3 class="skills-name"> Next JS </h3>
+                                <span class="skills-level"> Advanced </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- ********* Work ********* -->
-        <section class="work section" id="work">
-            <span class="section-subtitle"> My Portfolio </span>
-            <h2 class="section-title"> Recent Works </h2>
+            <div class="skills-content">
+                <h3 class="skills-title"> Other </h3>
 
-            <div class="work-container container grid">
-                <div class="work-card">
-                    <img src="img/PersonalWebsite.jpg" alt="Work image" class="work-img">
+                <div class="skills-box">
+                    <div class="skills-group">
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
 
-                    <h3 class="work-title"> My personal website </h3>
+                            <div>
+                                <h3 class="skills-name"> Python </h3>
+                                <span class="skills-level"> Advanced </span>
+                            </div>
+                        </div>
 
-                    <span class="work-button">
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
+
+                            <div>
+                                <h3 class="skills-name"> Java </h3>
+                                <span class="skills-level"> Intermediate </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
+
+                            <div>
+                                <h3 class="skills-name"> Linux </h3>
+                                <span class="skills-level"> Intermediate </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
+
+                            <div>
+                                <h3 class="skills-name"> MySQL </h3>
+                                <span class="skills-level"> Basic </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <i class="bx bxs-badge-check"></i>
+
+                            <div>
+                                <h3 class="skills-name"> Git </h3>
+                                <span class="skills-level"> Intermediate </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ********* Work ********* -->
+    <section class="work section" id="work">
+        <span class="section-subtitle"> My Portfolio </span>
+        <h2 class="section-title"> Recent Works </h2>
+
+        <div class="work-container container grid">
+            <div class="work-card">
+                <img alt="Work image" class="work-img" src="img/PersonalWebsite.jpg">
+
+                <h3 class="work-title"> My personal website </h3>
+
+                <span class="work-button">
                         See more <i class="bx bx-right-arrow-alt work-icon"></i>
                     </span>
 
-                    <div class="work-modal">
-                        <div class="work-modal-container">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="work-modal">
+                    <div class="work-modal-container">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <span class="work-modal-img">
-                                <img src="./img/PersonalWebsite.jpg" alt="project image">
+                        <span class="work-modal-img">
+                                <img alt="project image" src="./img/PersonalWebsite.jpg">
                             </span>
-                            <hr>
-                            <div class="work-modal-content">
+                        <hr>
+                        <div class="work-modal-content">
                                 <span class="work-usage-tech">
                                     <span class="title">
                                         Usage Technologies In Project:
@@ -448,7 +450,7 @@
                                         <span><i class="bx bx-check services-modal-icon"></i>JavaScript</span>
                                     </span>
                                 </span>
-                                <span class="work-description">
+                            <span class="work-description">
                                     <span class="title">
                                         Description:
                                     </span>
@@ -457,43 +459,43 @@
                                         project and abilities and contact with my clients.
                                     </span>
                                 </span>
-                            </div>
-                            <hr>
-                            <a href="https://amirtofigh.netlify.app" class="work-button">
-                                Go to this project <i class="bx bx-right-arrow-alt work-icon"></i>
-                            </a>
                         </div>
+                        <hr>
+                        <a class="work-button" href="https://amirtofigh.netlify.app">
+                            Go to this project <i class="bx bx-right-arrow-alt work-icon"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="work-card">
-                    <img src="img/MamadShopDesign.jpg" alt="Work image" class="work-img">
+            <div class="work-card">
+                <img alt="Work image" class="work-img" src="img/MamadShopDesign.jpg">
 
-                    <h3 class="work-title"> Mamad Shop Design </h3>
+                <h3 class="work-title"> Mamad Shop Design </h3>
 
-                    <span class="work-button">
+                <span class="work-button">
                         See more <i class="bx bx-right-arrow-alt work-icon"></i>
                     </span>
 
-                    <div class="work-modal">
-                        <div class="work-modal-container">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="work-modal">
+                    <div class="work-modal-container">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <div class="work-modal-inner-container">
+                        <div class="work-modal-inner-container">
                                 <span class="work-modal-img-multiple row">
                                     <span class="column">
-                                        <img src="./img/MamadShop1.jpg" alt="project image">
-                                        <img src="./img/MamadShop3.jpg" alt="project image">
-                                        <img src="./img/MamadShop6.jpg" alt="project image">
+                                        <img alt="project image" src="./img/MamadShop1.jpg">
+                                        <img alt="project image" src="./img/MamadShop3.jpg">
+                                        <img alt="project image" src="./img/MamadShop6.jpg">
                                     </span>
                                     <span class="column">
-                                        <img src="./img/MamadShop2.jpg" alt="project image">
-                                        <img src="./img/MamadShop4.jpg" alt="project image">
-                                        <img src="./img/MamadShop5.jpg" alt="project image">
+                                        <img alt="project image" src="./img/MamadShop2.jpg">
+                                        <img alt="project image" src="./img/MamadShop4.jpg">
+                                        <img alt="project image" src="./img/MamadShop5.jpg">
                                     </span>
                                 </span>
-                                <hr>
-                                <div class="work-modal-content">
+                            <hr>
+                            <div class="work-modal-content">
                                     <span class="work-description">
                                         <span class="title">
                                             Description:
@@ -502,33 +504,33 @@
                                             MamadShop UI & UX design I did with Adobe XD.
                                         </span>
                                     </span>
-                                </div>
-                                <hr>
-                                <a href="/files/mamadShopDesign.zip" class="work-button"> Download images with original
-                                    size (47.44 <span style="font-size: 60%;">MB</span>) </a>
                             </div>
+                            <hr>
+                            <a class="work-button" href="/files/mamadShopDesign.zip"> Download images with original
+                                size (47.44 <span style="font-size: 60%;">MB</span>) </a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="work-card">
-                    <img src="img/MamadShop.jpg" alt="Work image" class="work-img">
+            <div class="work-card">
+                <img alt="Work image" class="work-img" src="img/MamadShop.jpg">
 
-                    <h3 class="work-title"> Mamad Shop </h3>
+                <h3 class="work-title"> Mamad Shop </h3>
 
-                    <span class="work-button">
+                <span class="work-button">
                         See more <i class="bx bx-right-arrow-alt work-icon"></i>
                     </span>
 
-                    <div class="work-modal">
-                        <div class="work-modal-container">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="work-modal">
+                    <div class="work-modal-container">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <span class="work-modal-img">
-                                <img src="./img/MamadShop.jpg" alt="project image">
+                        <span class="work-modal-img">
+                                <img alt="project image" src="./img/MamadShop.jpg">
                             </span>
-                            <hr>
-                            <div class="work-modal-content">
+                        <hr>
+                        <div class="work-modal-content">
                                 <span class="work-usage-tech">
                                     <span class="title">
                                         Usage Technologies In Project:
@@ -540,7 +542,7 @@
                                         <span><i class="bx bx-check services-modal-icon"></i>Django</span>
                                     </span>
                                 </span>
-                                <span class="work-description">
+                            <span class="work-description">
                                     <span class="title">
                                         Description:
                                     </span>
@@ -552,34 +554,34 @@
                                         developer."
                                     </span>
                                 </span>
-                            </div>
-                            <hr>
-                            Not completed yet!
-                            <a href="https://mamadshop.netlify.app" class="work-button">
-                                Go to the template of this project <i class="bx bx-right-arrow-alt work-icon"></i>
-                            </a>
                         </div>
+                        <hr>
+                        Not completed yet!
+                        <a class="work-button" href="https://mamadshop.netlify.app">
+                            Go to the template of this project <i class="bx bx-right-arrow-alt work-icon"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="work-card">
-                    <img src="img/mamadWeather.jpg" alt="Work image" class="work-img">
+            <div class="work-card">
+                <img alt="Work image" class="work-img" src="img/mamadWeather.jpg">
 
-                    <h3 class="work-title"> Mamad Weather </h3>
+                <h3 class="work-title"> Mamad Weather </h3>
 
-                    <span class="work-button">
+                <span class="work-button">
                         See more <i class="bx bx-right-arrow-alt work-icon"></i>
                     </span>
 
-                    <div class="work-modal">
-                        <div class="work-modal-container">
-                            <i class="bx bx-x services-modal-close"></i>
+                <div class="work-modal">
+                    <div class="work-modal-container">
+                        <i class="bx bx-x services-modal-close"></i>
 
-                            <span class="work-modal-img">
-                                <img src="./img/mamadWeather.jpg" alt="project image">
+                        <span class="work-modal-img">
+                                <img alt="project image" src="./img/mamadWeather.jpg">
                             </span>
-                            <hr>
-                            <div class="work-modal-content">
+                        <hr>
+                        <div class="work-modal-content">
                                 <span class="work-usage-tech">
                                     <span class="title">
                                         Usage Technologies In Project:
@@ -590,7 +592,7 @@
                                         <span><i class="bx bx-check services-modal-icon"></i>Pure CSS</span>
                                     </span>
                                 </span>
-                                <span class="work-description">
+                            <span class="work-description">
                                     <span class="title">
                                         Description:
                                     </span>
@@ -601,206 +603,207 @@
                                         added to your city list.
                                     </span>
                                 </span>
-                            </div>
-                            <hr>
-                            <a href="https://mamadweather.netlify.app" class="work-button">
-                                Go to this project <i class="bx bx-right-arrow-alt work-icon"></i>
-                            </a>
                         </div>
+                        <hr>
+                        <a class="work-button" href="https://mamadweather.netlify.app">
+                            Go to this project <i class="bx bx-right-arrow-alt work-icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ********* Testimonials ********* -->
-        <!-- <section class="testimonials section">
-            <span id="testimonials"></span>
-            <span class="section-subtitle"> My Clients Say </span>
-            <h2 class="section-title"> Testimonials </h2>
+    <!-- ********* Testimonials ********* -->
+    <!-- <section class="testimonials section">
+        <span id="testimonials"></span>
+        <span class="section-subtitle"> My Clients Say </span>
+        <h2 class="section-title"> Testimonials </h2>
 
-            <div class="testimonials-container container swiper">
-                <div class="swiper-wrapper">
-                    <div class="testimonials-card swiper-slide">
-                        <img src="img/client1.jpg" alt="Client picture" class="testimonials-img">
+        <div class="testimonials-container container swiper">
+            <div class="swiper-wrapper">
+                <div class="testimonials-card swiper-slide">
+                    <img src="img/client1.jpg" alt="Client picture" class="testimonials-img">
 
-                        <h3 class="testimonials-name"> Jack Browns </h3>
-                        <p class="testimonials-description">
-                            A really great job, all aspects of the project were followed step by step and with good
-                            results.
-                        </p>
-                    </div>
-
-                    <div class="testimonials-card swiper-slide">
-                        <img src="img/client3.jpg" alt="Client picture" class="testimonials-img">
-
-                        <h3 class="testimonials-name"> Elisa Jobs </h3>
-                        <p class="testimonials-description">
-                            A really great job, all aspects of the project were followed step by step and with good
-                            results.
-                        </p>
-                    </div>
-
-                    <div class="testimonials-card swiper-slide">
-                        <img src="img/client2.jpg" alt="Client picture" class="testimonials-img">
-
-                        <h3 class="testimonials-name"> Daniel Diesel </h3>
-                        <p class="testimonials-description">
-                            A really great job, all aspects of the project were followed step by step and with good
-                            results.
-                        </p>
-                    </div>
+                    <h3 class="testimonials-name"> Jack Browns </h3>
+                    <p class="testimonials-description">
+                        A really great job, all aspects of the project were followed step by step and with good
+                        results.
+                    </p>
                 </div>
 
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+                <div class="testimonials-card swiper-slide">
+                    <img src="img/client3.jpg" alt="Client picture" class="testimonials-img">
+
+                    <h3 class="testimonials-name"> Elisa Jobs </h3>
+                    <p class="testimonials-description">
+                        A really great job, all aspects of the project were followed step by step and with good
+                        results.
+                    </p>
+                </div>
+
+                <div class="testimonials-card swiper-slide">
+                    <img src="img/client2.jpg" alt="Client picture" class="testimonials-img">
+
+                    <h3 class="testimonials-name"> Daniel Diesel </h3>
+                    <p class="testimonials-description">
+                        A really great job, all aspects of the project were followed step by step and with good
+                        results.
+                    </p>
+                </div>
             </div>
-        </section> -->
 
-        <!-- ********* Contact ********* -->
-        <section class="contact section" id="contact">
-            <span class="section-subtitle"> Get In Touch </span>
-            <h2 class="section-title"> Contact Me </h2>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section> -->
 
-            <div class="contact-container container grid">
-                <div class="contact-content">
-                    <h3 class="contact-title"> Talk to me </h3>
+    <!-- ********* Contact ********* -->
+    <section class="contact section" id="contact">
+        <span class="section-subtitle"> Get In Touch </span>
+        <h2 class="section-title"> Contact Me </h2>
 
-                    <div class="contact-info">
-                        <div class="contact-card">
-                            <i class="bx bx-mail-send contact-card-icon"></i>
-                            <h3 class="contact-card-title"> Email </h3>
-                            <span class="contact-card-data"> amir.tgh1381@gmail.com </span>
+        <div class="contact-container container grid">
+            <div class="contact-content">
+                <h3 class="contact-title"> Talk to me </h3>
 
-                            <a href="mailto:amir.tgh1381@gmail.com" target="_blank" class="contact-button">
-                                Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
-                            </a>
-                        </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="bx bx-mail-send contact-card-icon"></i>
+                        <h3 class="contact-card-title"> Email </h3>
+                        <span class="contact-card-data"> amir.tgh1381@gmail.com </span>
 
-                        <div class="contact-card">
-                            <i class="bx bxl-whatsapp contact-card-icon"></i>
-                            <h3 class="contact-card-title"> Whatsapp </h3>
-                            <span class="contact-card-data"> +989032522311 </span>
+                        <a class="contact-button" href="mailto:amir.tgh1381@gmail.com" target="_blank">
+                            Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
+                        </a>
+                    </div>
 
-                            <a href="https://api.whatsapp.com/send?phone=989032522311&text=Hello, more information!"
-                                target="_blank" class="contact-button">
-                                Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
-                            </a>
-                        </div>
+                    <div class="contact-card">
+                        <i class="bx bxl-whatsapp contact-card-icon"></i>
+                        <h3 class="contact-card-title"> Whatsapp </h3>
+                        <span class="contact-card-data"> +989032522311 </span>
 
-                        <div class="contact-card">
-                            <i class="bx bxl-telegram contact-card-icon"></i>
-                            <h3 class="contact-card-title"> Telegram </h3>
-                            <span class="contact-card-data"> amir_tgh </span>
+                        <a class="contact-button"
+                           href="https://api.whatsapp.com/send?phone=989032522311&text=Hello, more information!"
+                           target="_blank">
+                            Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
+                        </a>
+                    </div>
 
-                            <a href="https://t.me/amir_tgh" target="_blank" class="contact-button">
-                                Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
-                            </a>
-                        </div>
+                    <div class="contact-card">
+                        <i class="bx bxl-telegram contact-card-icon"></i>
+                        <h3 class="contact-card-title"> Telegram </h3>
+                        <span class="contact-card-data"> amir_tgh </span>
+
+                        <a class="contact-button" href="https://t.me/amir_tgh" target="_blank">
+                            Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i>
+                        </a>
                     </div>
                 </div>
-
-                <div class="contact-content">
-                    <h3 class="contact-title"> Write me your project </h3>
-
-                    <form action="https://formsubmit.co/7e9af31f39001e2e8649c75c67e73f46" method="POST"
-                        enctype="multipart/form-data" name="EmailForm" class="contact-form" id="contactForm">
-
-                        <input type="hidden" name="_subject" value="New Message From Personal Website Contact!">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/6/message">
-
-                        <div class="contact-form-div">
-                            <label for="" class="contact-form-tag"> Name </label>
-                            <input type="text" name="Contact Name" placeholder="Insert your name"
-                                class="contact-form-input" required>
-                        </div>
-
-                        <div class="contact-form-div">
-                            <label for="" class="contact-form-tag"> Mail </label>
-                            <input type="email" name="Contact Email" placeholder="Insert your email address"
-                                class="contact-form-input" required>
-                        </div>
-
-                        <div class="contact-form-div contact-form-area">
-                            <label for="" class="contact-form-tag"> Project </label>
-                            <textarea name="Contact Message" id="" cols="30" rows="10" placeholder="Write your project"
-                                class="contact-form-input" required></textarea>
-                        </div>
-
-                        <button type="submit" value="Submit" class="button contact-submit"> Send Message </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- ****************** Footer ****************** -->
-    <footer class="footer">
-        <div class="footer-container container">
-            <div class="footer-img">
-                <img src="img/BG.png" alt="Logo">
             </div>
 
-            <h1 class="footer-title"> Amir Tofigh </h1>
+            <div class="contact-content">
+                <h3 class="contact-title"> Write me your project </h3>
 
-            <ul class="footer-list">
-                <li>
-                    <a href="#about" class="footer-link"> About </a>
-                </li>
+                <form action="https://formsubmit.co/7e9af31f39001e2e8649c75c67e73f46" class="contact-form"
+                      enctype="multipart/form-data" id="contactForm" method="POST" name="EmailForm">
 
-                <li>
-                    <a href="#work" class="footer-link"> Projects </a>
-                </li>
+                    <input name="_subject" type="hidden" value="New Message From Personal Website Contact!">
+                    <input name="_captcha" type="hidden" value="false">
+                    <input name="_next" type="hidden" value="http://127.0.0.1:5500/6/message">
 
-                <li>
-                    <a href="#skills" class="footer-link"> Skills </a>
-                </li>
-            </ul>
+                    <div class="contact-form-div">
+                        <label class="contact-form-tag" for=""> Name </label>
+                        <input class="contact-form-input" name="Contact Name" placeholder="Insert your name"
+                               required type="text">
+                    </div>
 
-            <ul class="footer-social">
-                <a href="https://facebook.com/amirmohammad.tofigh.7" target="_blank" class="footer-social-link">
-                    <i class="bx bxl-facebook"></i>
-                </a>
+                    <div class="contact-form-div">
+                        <label class="contact-form-tag" for=""> Mail </label>
+                        <input class="contact-form-input" name="Contact Email" placeholder="Insert your email address"
+                               required type="email">
+                    </div>
 
-                <a href="https://join.skype.com/invite/XxwCQgXxhkck" target="_blank" class="footer-social-link">
-                    <i class="bx bxl-skype"></i>
-                </a>
+                    <div class="contact-form-div contact-form-area">
+                        <label class="contact-form-tag" for=""> Project </label>
+                        <textarea class="contact-form-input" cols="30" id="" name="Contact Message"
+                                  placeholder="Write your project"
+                                  required rows="10"></textarea>
+                    </div>
 
-                <a href="https://twitter.com/amir_tgh_" target="_blank" class="footer-social-link">
-                    <i class="bx bxl-twitter"></i>
-                </a>
-            </ul>
+                    <button class="button contact-submit" type="submit" value="Submit"> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
 
-            <span class="footer-copy">
+<!-- ****************** Footer ****************** -->
+<footer class="footer">
+    <div class="footer-container container">
+        <div class="footer-img">
+            <img alt="Logo" src="img/BG.png">
+        </div>
+
+        <h1 class="footer-title"> Amir Tofigh </h1>
+
+        <ul class="footer-list">
+            <li>
+                <a class="footer-link" href="#about"> About </a>
+            </li>
+
+            <li>
+                <a class="footer-link" href="#work"> Projects </a>
+            </li>
+
+            <li>
+                <a class="footer-link" href="#skills"> Skills </a>
+            </li>
+        </ul>
+
+        <ul class="footer-social">
+            <a class="footer-social-link" href="https://facebook.com/amirmohammad.tofigh.7" target="_blank">
+                <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a class="footer-social-link" href="https://join.skype.com/invite/XxwCQgXxhkck" target="_blank">
+                <i class="bx bxl-skype"></i>
+            </a>
+
+            <a class="footer-social-link" href="https://twitter.com/amir_tgh_" target="_blank">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </ul>
+
+        <span class="footer-copy">
                 &#169; Amir Tofigh. All rights reserved
             </span>
-        </div>
-    </footer>
+    </div>
+</footer>
 
 
+<!-- ****************** jQuery ******************-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
-    <!-- ****************** jQuery ******************-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<!-- ****************** Particles JS ******************-->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/particles.js"></script>
 
-    <!-- ****************** Particles JS ******************-->
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="js/particles.js"></script>
+<!-- ****************** Typing JS ******************-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <!-- ****************** Typing JS ******************-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- ****************** Scroll Reveal JS ******************-->
+<script src="js/scrollreveal.min.js"></script>
 
-    <!-- ****************** Scroll Reveal JS ******************-->
-    <script src="js/scrollreveal.min.js"></script>
+<!-- ****************** Swiper JS ******************-->
+<script src="js/swiper-bundle.min.js"></script>
 
-    <!-- ****************** Swiper JS ******************-->
-    <script src="js/swiper-bundle.min.js"></script>
+<!-- ****************** MixItUp Filter ******************-->
+<script src="js/mixitup.min.js"></script>
 
-    <!-- ****************** MixItUp Filter ******************-->
-    <script src="js/mixitup.min.js"></script>
-
-    <!-- ****************** Main JS ******************-->
-    <script src="js/script.js"></script>
+<!-- ****************** Main JS ******************-->
+<script src="js/script.js"></script>
 </body>
 
 </html>
